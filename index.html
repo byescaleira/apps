@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>byescaleira apps</title>
+<style>
+:root { color-scheme: light dark; --bg: #f2f2f7; --card: #fff; --ink: #1c1c1e; --muted: #6e6e73; --tint: #c2602a; }
+@media (prefers-color-scheme: dark) { :root { --bg: #000; --card: #1c1c1e; --ink: #f2f2f7; --muted: #98989d; --tint: #e38049; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.45 ui-rounded, -apple-system, system-ui, sans-serif; }
+main { max-width: 560px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 34px; margin: 0 0 4px; }
+p { color: var(--muted); margin: 0 0 24px; }
+.card { background: var(--card); border-radius: 22px; padding: 20px; display: grid; gap: 12px; }
+a.button { display: block; text-align: center; background: var(--tint); color: #fff; text-decoration: none; font-weight: 700; padding: 14px; border-radius: 999px; }
+code { font-size: 14px; word-break: break-all; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>byescaleira apps</h1>
+<p>Sideload builds of the apps by Rafael Escaleira. Add the source once and updates show up in AltStore or SideStore.</p>
+<div class="card">
+<a class="button" href="altstore://source?url=https://byescaleira.github.io/apps/source.json">Add to AltStore</a>
+<a class="button" href="sidestore://source?url=https://byescaleira.github.io/apps/source.json">Add to SideStore</a>
+<code>https://byescaleira.github.io/apps/source.json</code>
+</div>
+</main>
+</body>
+</html>

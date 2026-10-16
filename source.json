@@ -1,0 +1,35 @@
+{
+  "name": "byescaleira",
+  "identifier": "com.byescaleira.apps",
+  "subtitle": "Apps by Rafael Escaleira",
+  "description": "Sideload builds of the apps by Rafael Escaleira. Add this source to AltStore or SideStore to install and get updates.",
+  "iconURL": "https://byescaleira.github.io/apps/icons/ipa.png",
+  "website": "https://github.com/byescaleira/apps",
+  "tintColor": "#C2602A",
+  "featuredApps": ["com.byescaleira.ipa"],
+  "apps": [
+    {
+      "name": "IPA",
+      "bundleIdentifier": "com.byescaleira.ipa",
+      "developerName": "Rafael Escaleira",
+      "subtitle": "Search the App Store and keep any version as an .ipa.",
+      "localizedDescription": "Search apps in any App Store country, sign in with your Apple ID, list older versions, get free apps and keep the .ipa to share or sideload. Rebuilt from DLiPA by Ahmed Bafkir on top of ipatool by Majd Alfhaily.\n\nSign-in and downloads use Apple's store engine, which needs JIT on iPhone and iPad.",
+      "iconURL": "https://byescaleira.github.io/apps/icons/ipa.png",
+      "tintColor": "#C2602A",
+      "category": "utilities",
+      "screenshots": [
+        "https://byescaleira.github.io/apps/screenshots/ipa/search.png",
+        "https://byescaleira.github.io/apps/screenshots/ipa/app.png",
+        "https://byescaleira.github.io/apps/screenshots/ipa/downloads.png",
+        "https://byescaleira.github.io/apps/screenshots/ipa/accounts.png",
+        "https://byescaleira.github.io/apps/screenshots/ipa/settings.png"
+      ],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
