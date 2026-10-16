@@ -6,7 +6,9 @@
   "iconURL": "https://byescaleira.github.io/apps/icons/ipa.png",
   "website": "https://github.com/byescaleira/apps",
   "tintColor": "#C2602A",
-  "featuredApps": ["com.byescaleira.ipa"],
+  "featuredApps": [
+    "com.byescaleira.ipa"
+  ],
   "apps": [
     {
       "name": "IPA",
@@ -24,11 +26,26 @@
         "https://byescaleira.github.io/apps/screenshots/ipa/accounts.png",
         "https://byescaleira.github.io/apps/screenshots/ipa/settings.png"
       ],
-      "versions": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-10-16T03:39:10Z",
+          "localizedDescription": "First release of IPA: search any App Store country, app details and identifiers. Sign-in and downloads arrive with the store engine.",
+          "downloadURL": "https://github.com/byescaleira/ipa/releases/download/v1.0-1/IPA-1.0-1.ipa",
+          "size": 7006587,
+          "minOSVersion": "27.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      }
+      },
+      "version": "1.0",
+      "versionDate": "2026-10-16T03:39:10Z",
+      "versionDescription": "First release of IPA: search any App Store country, app details and identifiers. Sign-in and downloads arrive with the store engine.",
+      "downloadURL": "https://github.com/byescaleira/ipa/releases/download/v1.0-1/IPA-1.0-1.ipa",
+      "size": 7006587
     }
   ],
   "news": []
